@@ -1,0 +1,36 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.avatar {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 7px #000;
+  background-color: #e9dede80;
+}
+
+.label {
+  display: block;
+  color: #000;
+  font-weight: 700;
+}
+
+.quantity {
+  color: green;
+}

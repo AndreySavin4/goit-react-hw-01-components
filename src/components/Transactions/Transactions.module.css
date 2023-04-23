@@ -1,0 +1,28 @@
+.transactionHistory {
+  width: 767px;
+  margin: 0 auto;
+}
+
+.transactionsHeader {
+  width: 100%;
+  color: #fafafa;
+  background-color: rgb(27, 202, 202);
+}
+
+.transactionsTitle {
+  border: 1px solid #000;
+  height: 40px;
+}
+
+.transactionsList:nth-child(2n) {
+  background-color: #ececec;
+}
+
+.transactions {
+  height: 30px;
+  text-align: center;
+}
+
+.transactions::first-letter {
+  text-transform: uppercase;
+}
